@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "Fredoka", sans-serif;
+}
+.active {
+  @apply font-bold tracking-wide rounded-md text-cyan-900  bg-green-50 transition-colors duration-200 hover:text-white;
+}
